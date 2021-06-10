@@ -1,0 +1,19 @@
+{
+  "name": "express-api",
+  "description": "RestFul API for test with express.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "engines": {
+    "node": "^12.x",
+    "npm": "^7.x"
+  },
+  "license": "IST",
+  "repository": {
+    "url": "https://github.com/nottdark/api-express.git "
+  }
+}
