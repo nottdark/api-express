@@ -2,6 +2,12 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3002
 
+// Parser Body
+app.use(express.json());
+app.use(express.urlencoded({
+  extended: true
+}));
+
 app.get('/', (req, res) => {
   console.log('Method: GET', );
   console.log('query: ', JSON.stringify(req.query));
